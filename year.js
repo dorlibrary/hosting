@@ -1,5 +1,5 @@
 (function() {
-  document.getElementById("year").innerHTML = new Date().getFullYear();
+  document.getElementById('year').appendChild(document.createTextNode(new Date().getFullYear()))
 }
 
 })();
