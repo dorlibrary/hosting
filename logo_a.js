@@ -1,1 +1,1 @@
-document.getElementsByClassName("logo_a").value = "Johnny Bravo";
+document.getElementById('logo_a').appendChild(document.createTextNode(new Date().getFullYear()))
